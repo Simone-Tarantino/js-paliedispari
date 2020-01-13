@@ -18,6 +18,7 @@ function isPalindroma (parola) {
   }
   return pali;
 }
+
 var palindroma = isPalindroma(prompt("Inserisci una parola"));
 if (palindroma == true) {
   console.log("La parola è palindroma");
