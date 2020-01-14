@@ -18,10 +18,25 @@ function isPalindroma (parola) {
   }
   return pali;
 }
-
 var palindroma = isPalindroma(prompt("Inserisci una parola"));
 if (palindroma == true) {
   console.log("La parola è palindroma");
 } else {
   console.log("La parola non è palindroma");
 }
+
+
+// correzione
+//
+// var parola = prompt("Inserisci una parola");
+// var parolaReverse = "";
+// for (var i = parola.lenght - 1; i >= 0; i--) {
+//   console.log(parola[i]);
+//   parolaReverse += parola [i];
+//   console.log(parolaReverse);
+// }
+// if (parolaReverse == parola) {
+//   alert("è palindroma");
+// } else {
+//   alert("non è palindroma");
+// }

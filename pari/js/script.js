@@ -7,10 +7,10 @@
 
 function evenOrOdd(numero) {
   if (numero % 2 == 0) {
-    risultato = "pari";
+    var risultato = "pari";
     return risultato;
   } else {
-    risultato = "dispari";
+    var risultato = "dispari";
     return risultato;
   }
 }
@@ -27,7 +27,7 @@ var userEvenOdd = prompt("Pari o dispari?");
 console.log("Hai scommesso che il numero è " + userEvenOdd);
 var userNumber = parseInt(prompt("Scegli un numero da 1 a 5"));
 console.log("Il numero che hai scelto è il " + userNumber);
-var randomCPUNumber = Math.floor((Math.random() * 5) + 1);
+var randomCPUNumber = Math.floor((Math.random() * (5 - 1 + 1)) + 1);
 console.log("Il numero del computer è " + randomCPUNumber);
 var totalNumber = userNumber + randomCPUNumber;
 console.log("Il numero totale è " + totalNumber);
